@@ -28,6 +28,8 @@ const SavedBook = ({
               {title}
             </a>
           </h5>
+          {/* // TODO add subtitles*/}
+          {/* // TODO combine with SearchBook?*/}
           <small className="text-muted">
             {authors ? authors.join(", ") : "Unknown"}
           </small>
